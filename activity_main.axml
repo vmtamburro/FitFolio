@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	
+	<TextView
+		android:text="Welcome"
+		android:textSize="50sp"
+		android:gravity="center"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView1"
+		android:layout_marginBottom="20dp"
+		android:layout_marginTop="20dp" />
+	<Button
+		android:text="Profile"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/textView1"
+		android:id="@+id/button1"
+		android:layout_marginRight="3.0dp" />
+	<Button
+		android:text="BMI calculator"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/button2">
+	</RelativeLayout>
+	<Button
+		android:text="Nutrition Tracking"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/button3" />
+	<Button
+		android:text="Goals"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/button4" />
+	<Button
+		android:text="Friends"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/button5" />
+
+		/>
