@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1546449944 source:c:\users\tori's pc\documents\bmi calculator\main.cpp
+	<iostream>
+	<cmath>
+	<iomanip>
+
