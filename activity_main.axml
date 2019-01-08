@@ -1,48 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation=    "vertical"
-    android:layout_width=    "match_parent"
-    android:layout_height=    "match_parent"    >
-  <LinearLayout
-    android:orientation=    "vertical"
-    android:layout_width=    "match_parent"
-    android:layout_height=    "match_parent"
-    android:layout_weight=    "1"    >
-    <TextView
-        android:text="Welcome"
-        android:textSize="50sp"
-		android:gravity="center_horizontal"
-		android:layout_marginBottom="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0"    />
-	<Button
-		android:text="Profile"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout
+		android:orientation="vertical"
 		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:layout_below="@id/textView1"
-		android:id="@+id/button1"
-		android:layout_marginRight="3.0dp" />
-	<Button
-		android:text="BMI calculator"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:id="@+id/button2"/>
-	<Button
-		android:text="Nutrition Tracking"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:id="@+id/button3" />
-	<Button
-		android:text="Goals"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:id="@+id/button4" />
-	<Button
-		android:text="Friends"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:id="@+id/button5" />
-  </LinearLayout>
-
+		android:layout_height="match_parent"
+		android:layout_weight="1">
+		<TextView
+			android:text="Welcome"
+			android:textSize="50sp"
+			android:gravity="center_horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="20dp"
+			android:id="@+id/textView1" />
+		<Button
+			android:text="Profile"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnProfile" />
+		<Button
+			android:text="BMI Calculator"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnBMI" />
+		<Button
+			android:text="Nutritional Tracking"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnNut" />
+		<Button
+			android:text="Goal Setting"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnGoal" />
+		<Button
+			android:text="Social"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnSocial" />
+	</LinearLayout>
 </LinearLayout>
