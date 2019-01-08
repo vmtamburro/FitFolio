@@ -12,22 +12,21 @@ using Android.Widget;
 
 namespace FitFolio
 {
-    [Activity(Label = "ProfileActivity")]
-    public class ProfileActivity : Activity
+    [Activity(Label = "NutritionActivity")]
+    public class NutritionActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
-            SetContentView(Resource.Layout.profile_activity);
-            var mbtnBackProfile = FindViewById<Button>(Resource.Id.btnBackProfile);
-           
-            mbtnBackProfile.Click += delegate
-             {
-                 this.Finish();
-             };
+            // Create your application here
+            SetContentView(Resource.Layout.nutrition_activity);
+            var mbtnBackProfile = FindViewById<Button>(Resource.Id.btnNutBack);
 
-           
+            mbtnBackProfile.Click += delegate
+            {
+                this.Finish();
+            };
         }
     }
 }

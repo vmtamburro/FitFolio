@@ -27,11 +27,11 @@ namespace FitFolio
 
             //var txtName = FindViewById<TextView>(Resource.Id.editTextName);
             //var txtEmail = FindViewById<TextView>(Resource.Id.editTextEmail);
-            var btnBack = FindViewById<Button>(Resource.Id.btnBack);
+            var mbtnBack = FindViewById<Button>(Resource.Id.btnBack);
 
             //txtName.Text = name;
             //txtEmail.Text = email;
-            btnBack.Click += delegate
+           mbtnBack.Click += delegate
             {
                 this.Finish();
             };
