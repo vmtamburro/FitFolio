@@ -7,8 +7,7 @@
 	<LinearLayout
 		android:id="@+id/layout_cal"
 		android:orientation="vertical"
-		android:layout_marignTop="25dp"
-		android:layout_marginBottom-"25dp"
+		android:layout_marginBottom="25dp"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content">
 
@@ -20,9 +19,8 @@
 			android:textAlignment="textEnd"
 			android:layout_gravity="center_vertical"
 			android:textSize="30sp"
-			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			style="@style/Widget.AppCompat.Button.Button.Borderless"
+			
 		/>
 
 		
@@ -34,9 +32,8 @@
 			android:textAlignment="textEnd"
 			android:layout_gravity="center_vertical"
 			android:textSize="30sp"
-			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			style="@style/Widget.AppCompat.Button.Button.Borderless"
+
 		/>
 
 
@@ -61,8 +58,9 @@
 				android:text="sin"
 				android:layout_weight="1"
 				android:layout_height="wrap_content"
+				android:layout_width="0dp"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
+
 			/>
 			<Button
 				android:id="@+id/btnCos"
@@ -71,7 +69,7 @@
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
+
 				/>
 			<Button
 				android:id="@+id/btnTan"
@@ -80,7 +78,6 @@
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 				/>
 			<Button
 				android:id="@+id/btnFactorial"
@@ -89,7 +86,6 @@
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 				/>
 			<Button
 				android:id="@+id/btnPow"
@@ -98,11 +94,11 @@
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 				/>
 
 
 		</LinearLayout>
+
 		<LinearLayout
 			android:orientation="horizontal"
 			android:weightSum="5"
@@ -114,18 +110,17 @@
 				android:text="C"
 				android:layout_weight="1"
 				android:layout_height="wrap_content"
+				android:layout_width="0dp"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 			/>
 			<Button
 				android:id="@+id/btnBackSpace"
 				android:text="BK"
-				android:textSize="20"
+				android:textSize="20sp"
 				android:layout_weight="1"
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 				/>
 
 			<Button
@@ -133,8 +128,8 @@
 				android:text="("
 				android:layout_weight="1"
 				android:layout_height="wrap_content"
+				android:layout_width="0dp"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 			/>
 			<Button
 				android:id="@+id/btnClose"
@@ -143,7 +138,6 @@
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 				/>
 			<Button
 				android:id="@+id/btnPow"
@@ -152,7 +146,6 @@
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 				/>
 			<Button
 				android:id="@+id/btnSqrt"
@@ -161,12 +154,11 @@
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 				/>
 
 		</LinearLayout>
 
-				<LinearLayout
+		<LinearLayout
 			android:orientation="horizontal"
 			android:weightSum="5"
 			android:layout_width="wrap_content"
@@ -177,8 +169,8 @@
 				android:text="7"
 				android:layout_weight="1"
 				android:layout_height="wrap_content"
+				android:layout_width="0dp"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 			/>
 			<Button
 				android:id="@+id/btn8"
@@ -187,7 +179,6 @@
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 				/>
 			<Button
 				android:id="@+id/btn9"
@@ -196,7 +187,6 @@
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 				/>
 			<Button
 				android:id="@+id/btndiv"
@@ -205,7 +195,6 @@
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 				/>
 
 			<Button
@@ -213,8 +202,8 @@
 				android:text="%"
 				android:layout_weight="1"
 				android:layout_height="wrap_content"
+				android:layout_width="0dp"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 			/>
 		</LinearLayout>
 
@@ -229,8 +218,8 @@
 				android:text="4"
 				android:layout_weight="1"
 				android:layout_height="wrap_content"
+				android:layout_width="0dp"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 			/>
 			<Button
 				android:id="@+id/btn5"
@@ -239,7 +228,6 @@
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 				/>
 			<Button
 				android:id="@+id/btn6"
@@ -248,7 +236,6 @@
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 				/>
 			<Button
 				android:id="@+id/btnmulti"
@@ -257,7 +244,6 @@
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 				/>
 
 			<Button
@@ -265,12 +251,13 @@
 				android:text="1/x"
 				android:layout_weight="1"
 				android:layout_height="wrap_content"
+				android:layout_width="0dp"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 			/>
 
-		</LinearLayout>
-			<LinearLayout
+	    </LinearLayout>
+
+		<LinearLayout
 			android:orientation="horizontal"
 			android:weightSum="5"
 			android:layout_width="wrap_content"
@@ -281,8 +268,8 @@
 				android:text="1"
 				android:layout_weight="1"
 				android:layout_height="wrap_content"
+				android:layout_width="0dp"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 			/>
 			<Button
 				android:id="@+id/btn2"
@@ -291,7 +278,6 @@
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 				/>
 			<Button
 				android:id="@+id/btn3"
@@ -300,7 +286,6 @@
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 				/>
 			<Button
 				android:id="@+id/btnAdd"
@@ -309,7 +294,6 @@
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 				/>
 
 			<Button
@@ -317,8 +301,8 @@
 				android:text="-"
 				android:layout_weight="1"
 				android:layout_height="wrap_content"
+				android:layout_width="0dp"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 			/>
 
 		</LinearLayout>
@@ -335,8 +319,8 @@
 				android:text="4"
 				android:layout_weight="1"
 				android:layout_height="wrap_content"
+				android:layout_width="0dp"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 			/>
 			<Button
 				android:id="@+id/btn5"
@@ -345,7 +329,6 @@
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 				/>
 			<Button
 				android:id="@+id/btn6"
@@ -354,7 +337,6 @@
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 				/>
 			<Button
 				android:id="@+id/btnmulti"
@@ -363,7 +345,6 @@
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 				/>
 
 			<Button
@@ -371,12 +352,13 @@
 				android:text="1/x"
 				android:layout_weight="1"
 				android:layout_height="wrap_content"
+				android:layout_width="0dp"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 			/>
 
 		</LinearLayout>
-			<LinearLayout
+
+		<LinearLayout
 			android:orientation="horizontal"
 			android:weightSum="5"
 			android:layout_width="wrap_content"
@@ -390,7 +372,6 @@
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 				/>
 			<Button
 				android:id="@+id/btnPi"
@@ -399,7 +380,14 @@
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
+				/>
+			<Button
+				android:id="@+id/btnDot"
+				android:text="."
+				android:layout_weight="1"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:theme="@style/MathButton"
 				/>
 	
 
@@ -408,11 +396,11 @@
 				android:text="="
 				android:layout_weight="1"
 				android:layout_height="wrap_content"
+				android:layout_width="0dp"
 				android:theme="@style/MathButton"
-				style="@style/Widget.AppCompat.Button.Button.Borderless"
 			/>
-
 		</LinearLayout>
+	</LinearLayout>
 
 
 

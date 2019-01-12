@@ -15,7 +15,7 @@ namespace FitFolio.Assets.Helper
 {
    public class InfixToPostfix
     {
-        bool check_error = false;//check the first charachter is positive or negative
+        public bool check_error = false;//check the first charachter is positive or negative
 
         public string StardardizeDouble(double num)
         {
@@ -126,7 +126,7 @@ namespace FitFolio.Assets.Helper
             {
                 if (i > 0 && IsOneMath(s[i]) && (s[i-1]== ')' || IsNum(s[i-1])))
                     sl += "+";
-                if (i == 0 || (i > 0 && !IsNum(s[i - 1])) && s[i] == '-' && IsNum(s[i + 1]))
+                if ((i == 0 || (i > 0 && !IsNum(s[i - 1]))) && s[i] == '-' && IsNum(s[i + 1]))
                     sl += '~'; //check negative
                 else if (i > 0 && (IsNum(s[i - 1])) || s[i - 1] == ')' && IsCharPi(s[i]))
                     sl = sl + "*" + s[i];// change : &n,...)n to 6*n,...)*n
@@ -207,6 +207,7 @@ namespace FitFolio.Assets.Helper
             while (S.Count != 0)
                 sl = sl + S.Pop() + " ";
             E = sl.Split(' ');
+            E = E.Take(E.Length - 1).ToArray();//Remove last index
             return E;
         }
 
