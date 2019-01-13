@@ -1,22 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
 	<TextView
 		android:text="BMI Calculator"
 		android:textSize="50sp"
 		android:gravity="center_horizontal"
-		android:layout_marginBottom="20dp"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:minWidth="25px"
 		android:minHeight="25px"
+		android:layout_marginBottom="20sp"
 		android:id="@+id/textView1" />
-	<Button
-		android:text="Go Back"
+	<TextView
+		android:text="Weight"
+		android:textSize="15dp"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:id="@+id/btnBack" />
+		android:id="@+id/textView2" />
 
+	<EditText
+		android:inputType="numberDecimal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/editTextWeightLbs" />
+	<Spinner
+		android:spinnerMode="dialog"
+		android:padding="5dp"
+		android:entries="@array/dropdown_arrays"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="20dp"
+		android:id="@+id/spinner1"/>
+	<TextView
+		android:text="Height"
+		android:textSize="15dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView3" />
+	<EditText
+		android:inputType="number"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/editTextHeightFeet" />
+	<Spinner
+		android:spinnerMode="dialog"
+		android:padding="5dp"
+		android:entries="@array/height_dropdown"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/spinner2" />
+	<EditText
+		android:inputType="number"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/editTextHeightInches" />
+	<Spinner
+		android:padding="5dp"
+		android:entries="@array/height_sub_dropdown"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="20sp"
+		android:id="@+id/spinner3" />
+	<Button
+		android:text="Submit"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btnSubmit" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dip"
+		android:layout_weight="1"
+		android:gravity="center|bottom"
+		android:orientation="vertical">
+		<TextView
+			
+			android:textSize="30sp"
+			android:gravity="center_horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/textViewResult" />
+		<Button
+			android:text="Go Back"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnBack"
+			android:foregroundGravity="center_horizontal" />
+	</LinearLayout>
 </LinearLayout>
